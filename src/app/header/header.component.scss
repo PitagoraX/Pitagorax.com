@@ -1,0 +1,93 @@
+
+.header{
+    height: 80px;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-bottom: 1px rgb(49, 49, 49) solid;
+}
+
+.menu{
+    padding: 20px;
+    padding-left: 60px;
+    display: flex;
+    color: white;
+}
+
+.menu p{
+    padding-right:  40px;
+}
+
+.language{
+    position: fixed;
+    z-index: 999;
+    top:70px;
+    right: 15px;
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px;
+    max-width: 300px;
+    color: white;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding-right: 40px;
+}
+
+.language ul{
+    list-style: none;
+}
+
+.language li {
+    margin: .75em 0 .75em 0;
+}
+
+.submenu{
+    z-index: 999;
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px;
+    max-width: 300px;
+    color: white;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    position: absolute;
+    padding: 10px;
+}
+
+.submenu ul{
+    margin: 0;
+    list-style: none;
+    padding: 10px;
+}
+
+.triangle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgb(39, 39, 39);
+    margin: -10px 15px 0 0;
+  }
+
+.globe{
+    //filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.2));
+    width: 30px;
+    margin-right: 20px;
+    margin-top: 5px;
+    animation: rotate-globe 10s ease-in infinite;
+}
+
+.globe path{
+        fill: #000;
+}
+
+
+@keyframes rotate-globe {
+    0% {transform-origin: center center; transform: rotate(0deg);}
+    50% {ransform-origin: center center;  transform: rotate(30deg);}
+    100% {transform-origin: center center; transform: rotate(0deg);}
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="519.167" height="1430.613" viewBox="0 0 519.167 1430.613">
+  <g id="Grupo_58" data-name="Grupo 58" transform="translate(33 -103.28)">
+    <rect id="Rectángulo_15" data-name="Rectángulo 15" width="99" height="99" transform="translate(275.673 566.775) rotate(13)" fill="#dedede"/>
+    <rect id="Rectángulo_92" data-name="Rectángulo 92" width="101" height="101" transform="translate(146.34 1102.645) rotate(-14)" fill="#dedede"/>
+    <rect id="Rectángulo_16" data-name="Rectángulo 16" width="26" height="26" transform="matrix(0.995, 0.105, -0.105, 0.995, 96.329, 586.917)" fill="#dedede"/>
+    <path id="Polígono_3" data-name="Polígono 3" d="M22,0,44,36H0Z" transform="translate(175.716 206.674) rotate(-30)" fill="#dedede"/>
+    <rect id="Rectángulo_14" data-name="Rectángulo 14" width="42" height="42" transform="matrix(0.966, 0.259, -0.259, 0.966, 357.151, 103.28)" fill="#118ab2" opacity="0.8"/>
+    <circle id="Elipse_2" data-name="Elipse 2" cx="63.5" cy="63.5" r="63.5" transform="translate(-33 151)" fill="#06d6a0" opacity="0.8"/>
+    <circle id="Elipse_1" data-name="Elipse 1" cx="27" cy="27" r="27" transform="translate(275 294)" fill="#dedede"/>
+    <circle id="Elipse_4" data-name="Elipse 4" cx="24.5" cy="24.5" r="24.5" transform="translate(15 631)" fill="#ef476f" opacity="0.8"/>
+    <circle id="Elipse_9" data-name="Elipse 9" cx="50.5" cy="50.5" r="50.5" transform="translate(298 1239)" fill="#dedede" opacity="0.8"/>
+    <circle id="Elipse_8" data-name="Elipse 8" cx="45" cy="45" r="45" transform="translate(372 1078)" fill="#f9bc39" opacity="0.8"/>
+    <circle id="Elipse_3" data-name="Elipse 3" cx="16" cy="16" r="16" transform="translate(15 477)" fill="#dedede"/>
+    <path id="Trazado_2" data-name="Trazado 2" d="M67,0l67,115H0Z" transform="translate(300.995 453.632) rotate(-45)" fill="#ffb30f" opacity="0.8"/>
+    <path id="Trazado_32" data-name="Trazado 32" d="M52.16,0l52.16,89.529H0Z" transform="translate(36.224 837.522) rotate(-8)" fill="#3a9bbb" opacity="0.8"/>
+    <path id="Trazado_33" data-name="Trazado 33" d="M37.136,0,74.273,63.741H0Z" transform="matrix(0.485, -0.875, 0.875, 0.485, 251.648, 1010.677)" fill="#dedede" opacity="0.8"/>
+    <rect id="Rectángulo_13" data-name="Rectángulo 13" width="115" height="115" transform="translate(55.074 361.833) rotate(-30)" fill="#dedede"/>
+    <rect id="Rectángulo_89" data-name="Rectángulo 89" width="115" height="115" transform="translate(329.074 774.833) rotate(-30)" fill="#31d8ad"/>
+    <rect id="Rectángulo_93" data-name="Rectángulo 93" width="115" height="115" transform="translate(16.678 1377.941) rotate(-8)" fill="#ed6787"/>
+    <rect id="Rectángulo_91" data-name="Rectángulo 91" width="74" height="74" transform="matrix(0.998, -0.07, 0.07, 0.998, 16.01, 1187.57)" fill="#dedede"/>
+    <rect id="Rectángulo_94" data-name="Rectángulo 94" width="64" height="64" transform="matrix(0.927, -0.375, 0.375, 0.927, 372.205, 1474.553)" fill="#dedede"/>
+    <path id="Polígono_2" data-name="Polígono 2" d="M33.5,0,67,59H0Z" transform="matrix(0.788, 0.616, -0.616, 0.788, 199.18, 461.435)" fill="#dedede"/>
+    <path id="Polígono_6" data-name="Polígono 6" d="M33.5,0,67,59H0Z" transform="matrix(0.788, 0.616, -0.616, 0.788, 232.18, 1362.435)" fill="#dedede"/>
+    <circle id="Elipse_10" data-name="Elipse 10" cx="36.5" cy="36.5" r="36.5" transform="translate(3 984)" fill="#dedede" opacity="0.8"/>
+  </g>
+</svg>

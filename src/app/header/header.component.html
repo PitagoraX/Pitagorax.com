@@ -1,0 +1,43 @@
+<div class="header">
+    <div style="display: flex;">
+<img src="../../assets/images/GIF2.gif" width="50px" height="50px" style="padding:15px; image-rendering: optimizequality;"  />
+<p style="font-size: 40px; color: white; margin-top: 10px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">PitagoraX</p>
+
+<div class="menu">
+    <p>
+        Productos
+    </p>
+
+    <div>
+        <p>
+            <a (click)="serSubmenu=!serSubmenu">Servicios</a>
+        </p>
+        <div *ngIf="serSubmenu" class="submenu">
+            <ul>
+                <li><a routerLink="/cloud" (click)="serSubmenu=false">Cloud & DevOps</a></li>
+                <li><a routerLink="/product" (click)="serSubmenu=false">Desarollo de producto</a></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <p>
+            <a routerLink="/contact">Contacto</a>
+        </p>
+    </div>
+</div>
+
+</div>
+
+<div style="display: flex; align-items: center;">
+<a (click)="language=!language"><img class="globe" src="../../assets/images/worldwide.svg"></a>
+</div>
+</div>
+
+
+<div class="language" *ngIf="language">
+    <!-- <div class="triangle"></div> -->
+<ul>
+    <li><a (click)="changeLanguage('es')">Español</a></li>
+    <li><a (click)="changeLanguage('en')">English</a></li>
+</ul>
+</div>
