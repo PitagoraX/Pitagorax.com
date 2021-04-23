@@ -1,15 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display:wght@800&display=swap");
 
-
-body{
-    margin: 0;
-    font-family: Montserrat, sans-serif;
-    overflow-x: hidden;
+@font-face {
+  font-family: "Major";
+  src: url(assets/fonts/Gugi-Regular.ttf);
 }
 
-a{
-    cursor: pointer;
+body {
+  margin: 0;
+  font-family: "Major", sans-serif;
+  overflow-x: hidden;
 }
-

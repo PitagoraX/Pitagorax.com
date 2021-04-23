@@ -1,28 +1,32 @@
 <div class="header">
     <div style="display: flex;">
 <img src="../../assets/images/GIF2.gif" width="50px" height="50px" style="padding:15px; image-rendering: optimizequality;"  />
-<p style="font-size: 40px; color: white; margin-top: 10px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">PitagoraX</p>
+<a routerLink="/" style="font-size: 40px; color: white; margin-top: 15px;">PitagoraX</a>
 
 <div class="menu">
-    <p>
-        Productos
-    </p>
-
-    <div>
-        <p>
-            <a (click)="serSubmenu=!serSubmenu">Servicios</a>
-        </p>
-        <div *ngIf="serSubmenu" class="submenu">
+    <div style="margin: auto;">
+        <a (click)="proSubmenu=!proSubmenu; serSubmenu=false" [ngClass]="{'clicked': proSubmenu}" class="head-link" >Productos</a>
+        <div *ngIf="proSubmenu" class="submenu">
             <ul>
-                <li><a routerLink="/cloud" (click)="serSubmenu=false">Cloud & DevOps</a></li>
-                <li><a routerLink="/product" (click)="serSubmenu=false">Desarollo de producto</a></li>
+                <li><a href="https://woo.is" target="_blank">Woo</a></li>
+                <hr style="height:1px;margin:0;border-width:0;color:rgb(49, 49, 49);background-color:rgb(49, 49, 49)">
+                <li><a href="https://takeawalk.to" target="_blank">Take a walk</a></li>
             </ul>
         </div>
     </div>
-    <div>
-        <p>
-            <a routerLink="/contact">Contacto</a>
-        </p>
+
+    <div style="margin: auto;">
+        <a (click)="serSubmenu=!serSubmenu; proSubmenu=false" [ngClass]="{'clicked': serSubmenu || serSel}" class="head-link">Servicios</a>
+        <div *ngIf="serSubmenu" class="submenu">
+            <ul>
+                <li><a routerLink="/cloud">Cloud & DevOps</a></li>
+                <hr style="height:1px;margin:0;border-width:0;color:rgb(49, 49, 49);background-color:rgb(49, 49, 49)">
+                <li><a routerLink="/product">Desarollo de producto</a></li>
+            </ul>
+        </div>
+    </div>
+    <div style="margin: auto;">
+        <a routerLink="/contact" (click)="serSubmenu=false;proSubmenu=false;" class="head-link" routerLinkActive="clicked">Contacto</a>
     </div>
 </div>
 
@@ -38,6 +42,7 @@
     <!-- <div class="triangle"></div> -->
 <ul>
     <li><a (click)="changeLanguage('es')">Español</a></li>
+    <hr style="height:1px;margin:0;border-width:0;color:rgb(49, 49, 49);background-color:rgb(49, 49, 49)">
     <li><a (click)="changeLanguage('en')">English</a></li>
 </ul>
 </div>
